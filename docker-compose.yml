@@ -4,13 +4,12 @@ services:
   express-starter-kit:
     image: express-starter-kit
     build: .
-    environment:
-      NODE_ENV: production
     ports:
       - 3000:3000
     links:
       - mongo  
   mongo:
-    image: mongo
+    image: mongo:4.2
     ports: 
       - 27017:27017
+

@@ -1,0 +1,5 @@
+{
+    "DBHost": "mongodb://127.0.0.1:27017/node-express-mongodb-server",
+    "MONGO_INITDB_ROOT_USERNAME": "root",
+    "MONGO_INITDB_ROOT_PASSWORD": "p@ssword"
+}
